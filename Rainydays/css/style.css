@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2em;
+}
+
+.product_carousel_slides img {
+    width: 10em;
+    height: auto;
+}

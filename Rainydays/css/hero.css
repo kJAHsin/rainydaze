@@ -1,6 +1,6 @@
 body {
-    background-image: url(/images/lady_on_the_mountain.png);
+    background-image: url("../images/lady_on_the_mountain.png");
     background-size: cover;
-    justify-content: center;
-    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
