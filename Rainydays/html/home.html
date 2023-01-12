@@ -8,53 +8,92 @@
 		<link rel="stylesheet" href="/css/style.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="../html/home.html">home</a>
-				<a href="../html/home.html">contact</a>
-				<a href="../html/home.html">about</a>
-				<a href="../html/cart.html"
-					><img src="/images/shopping_cart.png" alt="Cart"
-				/></a>
-			</nav>
-			<div class="top_header">
+		<header class="header-home">
+			<section class="top_header">
+				<nav class="top_nav">
+					<a href="../html/home.html">home</a>
+					<a href="../html/home.html">contact</a>
+					<a href="../html/home.html">about</a>
+					<a href="../html/cart.html"
+						><img src="/images/shopping_cart.png" alt="Cart"
+					/></a>
+				</nav>
+			</section>
+
+			<section class="banner">
 				<a href="../index.html"
 					><img
+						class="logo"
 						src="/images/rainydays_umbrella_logo.png"
 						alt="Rainydays logo"
 				/></a>
 				<div class="header_images">
-					<img src="" alt="" />
-					<img src="" alt="" />
-					<img src="" alt="" />
+					<img
+						src="../images/dude_mountains 1.png"
+						alt="header image 3"
+					/>
+					<img
+						src="../images/lady_hiking 1.png"
+						alt="header image 2"
+					/>
+					<img
+						src="../images/lake_chile 1.png"
+						alt="header image 3"
+					/>
 				</div>
-			</div>
+			</section>
 		</header>
 		<main>
 			<div class="product_carousel">
-				<div class="product_carousel_slides">
-					<img
-						src="/images/RainyDays_Jacket1.png"
-						alt="first jacket"
-					/>
-					<img
-						src="/images/RainyDays_Jacket2.png"
-						alt="second jacket"
-					/>
-					<img
-						src="/images/RainyDays_Jacket3.png"
-						alt="third jacket"
-					/>
-					<img
-						src="/images/RainyDays_Jacket4.png"
-						alt="fourth jacket"
-					/>
-					<img
-						src="/images/RainyDays_Jacket5.png"
-						alt="fifth jacket"
-					/>
+				<div class="product_carousel">
+					<ul class="product_carousel_slides">
+						<li class="product_slide">
+							<img
+								src="/images/RainyDays_Jacket1.png"
+								alt="first jacket"
+							/>
+						</li >
+						<li class="product_slide">
+							<img
+								src="/images/RainyDays_Jacket2.png"
+								alt="second jacket"
+							/>
+						</li>
+						<li class="product_slide">
+							<img
+								src="/images/RainyDays_Jacket3.png"
+								alt="third jacket"
+							/>
+						</li>
+						<li class="product_slide">
+							<img
+								src="/images/RainyDays_Jacket4.png"
+								alt="fourth jacket"
+							/>
+						</li>
+						<li class="product_slide">
+							<img
+								src="/images/RainyDays_Jacket5.png"
+								alt="fifth jacket"
+							/>
+						</li>
+					</ul>
 				</div>
+				<button class="left-arrow">
+					<a href="#"
+						><img
+							src="../images/left.png"
+							alt="scroll products left arrow"
+					/></a>
+				</button>
 				<button><a href="product.html">Go to item</a></button>
+				<button class="right-arrow">
+					<a href="#"
+						><img
+							src="../images/right.png"
+							alt="scroll products right arrow"
+					/></a>
+				</button>
 			</div>
 			<div class="about_section">
 				<img src="/images/about_image.png" alt="ice climbing" />

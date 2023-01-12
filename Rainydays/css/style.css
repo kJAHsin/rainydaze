@@ -1,26 +1,109 @@
-*, *::before, *::after {
-    margin: 0 auto;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+/* variables */
+
+:root {
+	--color-bg: #708e9e;
+	--color-shadow: #3f4a3c;
+	--color-disabled: #a3af9e;
+	--color-accent: #9cb79d;
+	--color-btn: #325329;
+	--color-cta: #dd1c1c;
+	--color-font: #000000;
+
+	--ff-standard: "Georgia", sans-serif;
 }
 
-header {
-    display: flex;
-    margin: 0 auto;
+/* global laws */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: var(--ff-standard);
+	color: var(--color-font);
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #708e9e;
+	color: var(--color-font);
+}
+
+/* page margins */
+
+/* header */
+
+.header-home {
+	display: block;
+	background-color: #3d7ea2;
+	margin: 0;
+	max-width: 100vw;
+}
+
+.header-container {
+	display: flex;
+	min-width: 100%;
+	margin: 0;
+}
+
+/* nav */
+
+.top_nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	color: var(--color-font);
+	gap: 2em;
+	padding: 2em 4em 2em 0;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	width: 90vw;
+    height: auto;
+	gap: 5em;
+	padding: 0;
+	margin: 0 auto;
 }
 
 .logo {
-    position: relative;
+	position: relative;
+	width: 20em;
+	height: auto;
 }
 
-nav {
-    display: flex;
-    padding: 2em;
+.header_images {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header_images img {
+	width: 17vw;
+	height: auto;
 }
 
 .product_carousel_slides img {
-    width: 10em;
-    height: auto;
+	height: 10em;
+	border: #dd1c1c solid 1px;
+	border-radius: 100vw;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.left-arrow,
+.right-arrow {
+	border: none;
+	background-color: transparent;
 }
